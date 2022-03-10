@@ -1,4 +1,9 @@
-/*Paleta de colores: https://coolors.co/6c7a93-2e4fcd-ffffff-128fe5-1f3e72-6c7a93-eff2ff*/
+/*Paleta de colores: https://coolors.co/6c7a93-2e4fcd-ffffff-128fe5-1f3e72-6c7a93-eff2ff
+
+Golden Tags
+- #FFD200
+- #FFF9DD
+*/
 
 body{
     margin:0;
@@ -53,17 +58,26 @@ button{
 }
 .tag{
     display:flex;
-    gap:5px;
+    gap:8px;
     align-items: center;
     color:#1F3E72;
     font-weight: bold;
     font-size:14px;
 }
-/*Amarillo
-- #FFF9DD
-- #FFD200
-*/
 
 .tag > img{
     width: 25px;
+}
+
+.primerPanel> .text{
+    padding:15% 10%;
+    width:50%;
+    box-sizing:border-box;
+}
+h1{
+    color:#1F3E72;
+}
+.tagContainer{
+    display:flex;
+    gap:20px;
 }
