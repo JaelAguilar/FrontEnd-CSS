@@ -3,7 +3,7 @@ body{
     font-family: "Segoe UI";
 }
 .header{
-    position:absolute;
+    position:fixed;
     top:0;
     width:100vw;
     max-width: 100vw;
