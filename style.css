@@ -26,16 +26,23 @@ body{
     color:gray;
     padding:10px;
     font-size:min(2vw,20px);
+    font-weight: 600;
 }
 
 button{
     background-color: #2E4FCD;
     color:white !important; 
     border:none;
+    border-radius:5px;
+    
 }
 
 .logo{
     color:#2E4FCD;
     font-weight: bold;
     font-size:min(3vw,30px)
+}
+
+.shadow{
+    box-shadow: 0 3px 6px rgba(128, 128, 128, 0.507);
 }
