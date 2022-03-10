@@ -1,6 +1,9 @@
+/*Paleta de colores: https://coolors.co/6c7a93-2e4fcd-ffffff-128fe5-1f3e72-6c7a93-eff2ff*/
+
 body{
     margin:0;
     font-family: "Segoe UI";
+    font-size:15px;
 }
 .header{
     position:fixed;
@@ -47,4 +50,20 @@ button{
 
 .shadow{
     box-shadow: 0 3px 6px rgba(128, 128, 128, 0.507);
+}
+.tag{
+    display:flex;
+    gap:5px;
+    align-items: center;
+    color:#1F3E72;
+    font-weight: bold;
+    font-size:14px;
+}
+/*Amarillo
+- #FFF9DD
+- #FFD200
+*/
+
+.tag > img{
+    width: 25px;
 }
