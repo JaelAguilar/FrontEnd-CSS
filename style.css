@@ -9,6 +9,9 @@ body{
     margin:0;
     font-family: "Segoe UI";
     font-size:15px;
+    background-image: url("img/background.svg");
+    background-repeat:repeat;
+    background-size: cover;
 }
 
 .transparent{
