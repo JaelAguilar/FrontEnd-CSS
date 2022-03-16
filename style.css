@@ -61,7 +61,7 @@ button{
 }
 
 .shadow{
-    box-shadow: 0 3px 6px rgba(128, 128, 128, 0.507);
+    box-shadow: 0 20px 30px -20px  #2E4FCD81;
 }
 
 .tag,.firstTag{
@@ -106,7 +106,7 @@ h1,h2,h3{
     font-size: 1.5vmin;
     flex-grow:1;
     margin-top:5%;
-    margin-right:10%;
+    margin-right:30%;
 }
 p{
     margin-top:1vmin;
