@@ -69,6 +69,7 @@ button{
     color:#1F3E72;
     font-weight: bold;
     font-size:14px;
+    margin:10px 5px 10px 0;
 }
 
 .tag > img{
@@ -92,7 +93,6 @@ h1{
 }
 .tagContainer{
     display:flex;
-    gap:20px;
     flex-wrap: wrap;
 }
 p{
@@ -134,4 +134,10 @@ i{
 .tagContainer i{
     color:#FFD200;
     background-color:#FFF9DD;
+}
+
+.vacunas-img{
+    width:100%;
+    padding:10%;
+    box-sizing:border-box;
 }
