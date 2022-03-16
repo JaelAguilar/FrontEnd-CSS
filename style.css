@@ -8,7 +8,7 @@ Golden Tags
 
 body{
     margin:0;
-    font-family: Roboto, Calibri;
+    font-family: Roboto;
     font-size:15px;
     background-image: url("img/background.svg");
     background-repeat:repeat;
@@ -72,16 +72,16 @@ button{
     gap:5px;
 }
 .tag{
-    font-size:2vmin;
+    font-size:2vw;
     margin:10px 5px 0 0;
 }
 
 .firstTag{
-    font-size:1.5vmin;
+    font-size:1.5vw;
     margin:0;
 }
 
-.primerPanel> .text{
+.primerPanel> .text,.tercerPanel> .text, .cuartoPanel> .text{
     padding:20% 10%;
     width:60%;
     box-sizing:border-box;
@@ -90,7 +90,7 @@ button{
     flex-direction: column;
 }
 
-.primerPanel{
+.primerPanel,.tercerPanel,.cuartoPanel{
     display:flex;
     max-height:100vw;
     position: relative;    
@@ -103,7 +103,7 @@ h1,h2,h3{
     display:flex;
     justify-content: space-between;
     gap:1vmin;
-    font-size: 1.5vmin;
+    font-size: 1.5vw;
     flex-grow:1;
     margin-top:5%;
     margin-right:30%;
@@ -111,16 +111,16 @@ h1,h2,h3{
 p{
     margin-top:1vmin;
     margin-bottom:0;
-    font-size:2vmin;
+    font-size:2vw;
 }
 h1{
-    font-size:5vmin;
+    font-size:5vw;
 }
 h2{
-    font-size:4vmin;
+    font-size:4vw;
 }
 h3{
-    font-size:3vmin;
+    font-size:3vw;
 }
 
 .image > img{
