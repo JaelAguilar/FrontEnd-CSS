@@ -4,10 +4,11 @@ Golden Tags
 - #FFD200
 - #FFF9DD
 */
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
 
 body{
     margin:0;
-    font-family: "Segoe UI";
+    font-family: Roboto, Calibri;
     font-size:15px;
     background-image: url("img/background.svg");
     background-repeat:repeat;
@@ -24,7 +25,7 @@ body{
     box-sizing:border-box;
     display:flex;
     justify-content:space-evenly;
-    padding:30px 0;
+    padding:4vmin 2vmin;
     min-width: fit-content;
     align-items: center;
     z-index: 10;
@@ -32,7 +33,7 @@ body{
 
 .menu{
     display:flex;
-    gap:2vw;
+    justify-content:space-between;
     margin:0 1%;
     
 }
@@ -62,25 +63,31 @@ button{
 .shadow{
     box-shadow: 0 3px 6px rgba(128, 128, 128, 0.507);
 }
-.tag{
+
+.tag,.firstTag{
     display:flex;
-    gap:5px;
     align-items: center;
     color:#1F3E72;
     font-weight: bold;
-    font-size:14px;
+    gap:5px;
+}
+.tag{
+    font-size:2vmin;
     margin:10px 5px 0 0;
 }
 
-.tag > img{
-    width: 25px;
+.firstTag{
+    font-size:1.5vmin;
+    margin:0;
 }
 
 .primerPanel> .text{
-    padding:15% 10%;
-    width:50%;
+    padding:20% 10%;
+    width:60%;
     box-sizing:border-box;
     height:auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .primerPanel{
@@ -90,13 +97,19 @@ button{
 }
 h1,h2,h3{
     color:#1F3E72;
+    margin-bottom:1vmin;
 }
 .tagContainer{
     display:flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1vmin;
+    font-size: 1.5vmin;
+    flex-grow:1;
+    margin-top:5%;
+    margin-right:10%;
 }
 p{
-    margin-top:20px;
+    margin-top:1vmin;
     margin-bottom:0;
     font-size:2vmin;
 }
@@ -117,7 +130,7 @@ h3{
 }
 
 .image{
-    width:50%;
+    width:40%;
     box-sizing: border-box;
 }
 
@@ -142,6 +155,7 @@ i{
 }
 
 .tagContainer i{
+    padding:0.5vmin;
     color:#FFD200;
     background-color:#FFF9DD;
 }
