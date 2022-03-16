@@ -4,11 +4,11 @@ Golden Tags
 - #FFD200
 - #FFF9DD
 */
-@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 body{
     margin:0;
-    font-family: Roboto;
+    font-family: 'Poppins', sans-serif;
     font-size:15px;
     background-image: url("img/background.svg");
     background-repeat:repeat;
