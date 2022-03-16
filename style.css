@@ -64,12 +64,12 @@ button{
 }
 .tag{
     display:flex;
-    gap:8px;
+    gap:5px;
     align-items: center;
     color:#1F3E72;
     font-weight: bold;
     font-size:14px;
-    margin:10px 5px 10px 0;
+    margin:10px 5px 0 0;
 }
 
 .tag > img{
@@ -78,7 +78,7 @@ button{
 
 .primerPanel> .text{
     padding:15% 10%;
-    width:60%;
+    width:50%;
     box-sizing:border-box;
     height:auto;
 }
@@ -88,7 +88,7 @@ button{
     max-height:100vw;
     position: relative;    
 }
-h1{
+h1,h2,h3{
     color:#1F3E72;
 }
 .tagContainer{
@@ -96,7 +96,18 @@ h1{
     flex-wrap: wrap;
 }
 p{
-    margin:20px 0;
+    margin-top:20px;
+    margin-bottom:0;
+    font-size:2vmin;
+}
+h1{
+    font-size:5vmin;
+}
+h2{
+    font-size:4vmin;
+}
+h3{
+    font-size:3vmin;
 }
 
 .image > img{
@@ -106,24 +117,23 @@ p{
 }
 
 .image{
-    width:40%;
+    width:50%;
     box-sizing: border-box;
 }
 
 .scheduler{
     display:flex;
     justify-content:space-between;
-    padding:5vmin;
+    padding:30px 10%;
 }
 
 .scheduleContainer{
     position:absolute;
-    width:80%;
+    width:75%;
     height:fit-content;
-    top:80%;
-    left:4%;
+    top:75%;
+    left:10%;
 }
-
 i{
      padding:6px;
      border-radius:3px;
@@ -138,6 +148,23 @@ i{
 
 .vacunas-img{
     width:100%;
-    padding:10%;
+    padding:5% 10%;
     box-sizing:border-box;
+}
+
+.segundoPanel{
+    width:50%;
+    margin-left:10%;
+}
+
+.galeria-razones{
+    display:flex;
+    flex-wrap:wrap;
+    gap:4vw;
+    margin:0 10%;
+}
+
+.galeria-razones > div{
+    width:200px;
+    flex-grow:1;
 }
