@@ -171,14 +171,22 @@ i{
     margin-left:10%;
 }
 
-.galeria-razones{
+.galeria{
     display:flex;
     flex-wrap:wrap;
     gap:4vw;
     margin:0 10%;
 }
 
-.galeria-razones > div{
+.galeria > div{
     width:200px;
     flex-grow:1;
+}
+
+.cuartoPanel .galeria{
+ margin:0;
+}
+
+.cuartoPanel .text{
+    padding:10% 10%;
 }
