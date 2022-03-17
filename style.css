@@ -9,7 +9,7 @@ Golden Tags
 body{
     margin:0;
     font-family: 'Poppins', sans-serif;
-    font-size:15px;
+    font-size:.8vw;
     background-image: url("img/background.svg");
     background-repeat:repeat;
     background-size: cover;
@@ -95,7 +95,7 @@ button{
     max-height:100vw;
     position: relative;    
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     color:#1F3E72;
     margin-bottom:1vmin;
 }
@@ -111,16 +111,19 @@ h1,h2,h3{
 p{
     margin-top:1vmin;
     margin-bottom:0;
-    font-size:2vw;
+    font-size:2em;
 }
 h1{
-    font-size:5vw;
+    font-size:5em;
 }
 h2{
-    font-size:4vw;
+    font-size:4em;
 }
-h3{
-    font-size:3vw;
+h3,h4{
+    font-size:3em;
+}
+h4{
+    font-weight:500;
 }
 
 .image > img{
@@ -175,12 +178,14 @@ i{
     display:flex;
     flex-wrap:wrap;
     gap:4vw;
-    margin:0 10%;
+    margin:2% 10% 8%;
 }
 
 .galeria > div{
-    width:200px;
+    width:100px;
     flex-grow:1;
+    padding:2%;
+    font-size: .6vw;
 }
 
 .cuartoPanel .galeria{
@@ -189,4 +194,8 @@ i{
 
 .cuartoPanel .text{
     padding:10% 10%;
+}
+
+.gallery-logo{
+    font-size:2.2vw;
 }
