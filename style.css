@@ -14,6 +14,7 @@ body{
     background-image: url("img/background.svg");
     background-repeat:repeat;
     background-size: cover;
+    color:#6C7A93;
 }
 button{
     background-color: #2E4FCD;
@@ -204,3 +205,33 @@ i{
 }
 
 /* ==== FOOTER ==== */
+.footer{
+    background-color:#EFF2FF;
+    padding:4% 10%;
+}
+.footer-menu{
+    gap:30%;
+    display:flex;
+}
+.footer-left{
+    display:flex;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.footer-logo{
+    width:20%;
+}
+.footer-footer{
+    display:flex;
+    width:100%;
+    padding-top:8vw;
+}
+.footer-footer>div{
+    display:flex;
+    gap:3%;
+    flex-grow:1;
+    justify-content: flex-end;
+}
+.footer h3{
+    margin-top:0;
+}
