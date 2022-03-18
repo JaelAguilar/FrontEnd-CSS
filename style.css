@@ -49,10 +49,19 @@ h1,h2,h3,h4{
     margin-bottom:1vmin;
 }
 i{
-     padding:6px;
+     padding:1vw;
      border-radius:3px;
      color:#2E4FCD;
      background-color:#e3e9ff;
+}
+input,select{
+    width:100%;
+    font-size:1em;
+    box-sizing:border-box;
+    height:2em;
+    border:.1vw solid #d8e6ff;
+    border-radius:.3vw;
+    color:inherit;
 }
 
 /* ==== CARACTERÍSITCAS ==== */
@@ -173,13 +182,20 @@ i{
     font-size:1.5vw;
     margin:0;
 }
+.vacunas-img{
+    width:100%;
+    padding:10% 10%;
+    box-sizing:border-box;
+}
 
 /* ==== SCHEDULER ====*/
 .scheduler{
     display:flex;
     justify-content:space-between;
-    padding:3% 10%;
+    padding:3% 7%;
     align-items:center;
+    font-size:1.4vw;
+    gap:1vw;
 }
 .scheduleContainer{
     position:absolute;
@@ -188,10 +204,15 @@ i{
     top:75%;
     left:10%;
 }
-.vacunas-img{
-    width:100%;
-    padding:10% 10%;
-    box-sizing:border-box;
+.schedule-element{
+    flex-shrink:1;
+}
+.sheduler-element-title{
+    display:flex;
+    align-items:center;
+    gap:1vw;
+    padding-bottom:.5vw;
+    font-weight: 500;
 }
 
 /* ==== SEGUNDO PANEL ==== */
