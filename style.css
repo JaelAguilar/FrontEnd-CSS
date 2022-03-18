@@ -6,6 +6,7 @@ Golden Tags
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+/* ==== COMPONENTES HTML ==== */
 body{
     margin:0;
     font-family: 'Poppins', sans-serif;
@@ -14,99 +15,12 @@ body{
     background-repeat:repeat;
     background-size: cover;
 }
-
-.transparent{
-    background-color: rgba(255, 255, 255, 0.8);
-}
-.header{
-    position:absolute;
-    top:0;
-    width:100%;
-    box-sizing:border-box;
-    display:flex;
-    justify-content:space-evenly;
-    padding:4vmin 2vmin;
-    min-width: fit-content;
-    align-items: center;
-    z-index: 10;
-}
-
-.menu{
-    display:flex;
-    justify-content:space-between;
-    margin:0 1%;
-    
-}
-.menu-item{
-    min-width: fit-content;
-    color:gray;
-    padding:10px;
-    font-size:min(2vw,20px);
-    font-weight: 600;
-}
-
 button{
     background-color: #2E4FCD;
     color:white !important; 
     border:none;
     border-radius:5px;
     padding:10px 20px;
-    
-}
-
-.logo{
-    color:#2E4FCD;
-    font-weight: bold;
-    font-size:min(3vw,30px)
-}
-
-.shadow{
-    box-shadow: 0 20px 30px -20px  #2E4FCD81;
-}
-
-.tag,.firstTag{
-    display:flex;
-    align-items: center;
-    color:#1F3E72;
-    font-weight: bold;
-    gap:5px;
-}
-.tag{
-    font-size:2vw;
-    margin:10px 5px 0 0;
-}
-
-.firstTag{
-    font-size:1.5vw;
-    margin:0;
-}
-
-.primerPanel> .text,.tercerPanel> .text, .cuartoPanel> .text{
-    padding:20% 10%;
-    width:60%;
-    box-sizing:border-box;
-    height:auto;
-    display:flex;
-    flex-direction: column;
-}
-
-.primerPanel,.tercerPanel,.cuartoPanel{
-    display:flex;
-    max-height:100vw;
-    position: relative;    
-}
-h1,h2,h3,h4{
-    color:#1F3E72;
-    margin-bottom:1vmin;
-}
-.tagContainer{
-    display:flex;
-    justify-content: space-between;
-    gap:1vmin;
-    font-size: 1.5vw;
-    flex-grow:1;
-    margin-top:5%;
-    margin-right:30%;
 }
 p{
     margin-top:1vmin;
@@ -125,30 +39,9 @@ h3,h4{
 h4{
     font-weight:500;
 }
-
-.image > img{
-    height:100%;
-    width:100%;
-    object-fit:cover;
-}
-
-.image{
-    width:40%;
-    box-sizing: border-box;
-}
-
-.scheduler{
-    display:flex;
-    justify-content:space-between;
-    padding:30px 10%;
-}
-
-.scheduleContainer{
-    position:absolute;
-    width:75%;
-    height:fit-content;
-    top:75%;
-    left:10%;
+h1,h2,h3,h4{
+    color:#1F3E72;
+    margin-bottom:1vmin;
 }
 i{
      padding:6px;
@@ -157,45 +50,145 @@ i{
      background-color:#e3e9ff;
 }
 
+/* ==== CARACTERÍSITCAS ==== */
+.transparent{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.logo{
+    color:#2E4FCD;
+    font-weight: bold;
+    font-size:min(3vw,30px)
+}
+.shadow{
+    box-shadow: 0 20px 30px -20px  #2E4FCD81;
+}
+
+/* ==== UTILIDADES ==== */
+.tag,.firstTag{
+    display:flex;
+    align-items: center;
+    color:#1F3E72;
+    font-weight: bold;
+    gap:5px;
+}
+.tag{
+    font-size:2vw;
+    margin:10px 5px 0 0;
+}
+.primerPanel> .text,.tercerPanel> .text, .cuartoPanel> .text{
+    padding:20% 10%;
+    width:60%;
+    box-sizing:border-box;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.primerPanel,.tercerPanel,.cuartoPanel{
+    display:flex;
+    max-height:100vw;
+    position: relative;    
+}
+.tagContainer{
+    display:flex;
+    justify-content: space-between;
+    gap:1vmin;
+    font-size: 1.5vw;
+    flex-grow:1;
+    margin-top:5%;
+    margin-right:30%;
+}
+.image > img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.image{
+    width:40%;
+    box-sizing: border-box;
+}
 .tagContainer i{
     padding:0.5vmin;
     color:#FFD200;
     background-color:#FFF9DD;
 }
-
-.vacunas-img{
-    width:100%;
-    padding:10% 10%;
-    box-sizing:border-box;
-}
-
-.segundoPanel{
-    width:50%;
-    margin-left:10%;
-}
-
 .galeria{
     display:flex;
     flex-wrap:wrap;
     gap:4vw;
     margin:2% 10% 8%;
 }
-
 .galeria > div{
     width:100px;
     flex-grow:1;
     padding:2%;
     font-size: .6vw;
 }
-
-.cuartoPanel .galeria{
- margin:0;
-}
-
-.cuartoPanel .text{
-    padding:10% 10%;
-}
-
 .gallery-logo{
     font-size:2.2vw;
 }
+
+/* ==== HEADER ==== */
+.header{
+    position:absolute;
+    top:0;
+    width:100%;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-evenly;
+    padding:4vmin 2vmin;
+    min-width: fit-content;
+    align-items: center;
+    z-index: 10;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    margin:0 1%; 
+}
+.menu-item{
+    min-width: fit-content;
+    color:gray;
+    padding:10px;
+    font-size:min(2vw,20px);
+    font-weight: 600;
+}
+
+/* ==== PRIMER PANEL ==== */
+.firstTag{
+    font-size:1.5vw;
+    margin:0;
+}
+
+/* ==== SCHEDULER ====*/
+.scheduler{
+    display:flex;
+    justify-content:space-between;
+    padding:30px 10%;
+}
+.scheduleContainer{
+    position:absolute;
+    width:75%;
+    height:fit-content;
+    top:75%;
+    left:10%;
+}
+.vacunas-img{
+    width:100%;
+    padding:10% 10%;
+    box-sizing:border-box;
+}
+
+/* ==== SEGUNDO PANEL ==== */
+.segundoPanel{
+    width:50%;
+    margin-left:10%;
+}
+/* ==== TERCER PANEL ==== */
+/* ==== CUARTO PANEL ==== */
+.cuartoPanel .galeria{
+ margin:0;
+}
+.cuartoPanel .text{
+    padding:10% 10%;
+}
+/* ==== FOOTER ==== */
