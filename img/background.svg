@@ -3,8 +3,8 @@
 
 <svg
    width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   height="400mm"
+   viewBox="0 0 210 400"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.64052329"
-     inkscape:cx="711.1373"
-     inkscape:cy="560.47923"
+     inkscape:cx="165.48969"
+     inkscape:cy="810.27499"
      inkscape:window-width="2160"
      inkscape:window-height="1334"
      inkscape:window-x="-11"
@@ -43,16 +43,16 @@
        id="rect31"
        width="70.710678"
        height="70.710678"
-       x="117.65426"
-       y="-81.468948"
+       x="107.72468"
+       y="-87.313042"
        transform="rotate(44.986448)" />
     <rect
        style="fill:#f2f2f2;fill-rule:evenodd;stroke-width:0.165118"
        id="rect31-4"
        width="70.710678"
        height="70.710678"
-       x="270.46613"
-       y="-61.278767"
+       x="311.63873"
+       y="-11.906286"
        transform="rotate(44.986448)" />
     <rect
        style="fill:#f2f2f2;fill-rule:evenodd;stroke-width:0.165118"
@@ -61,14 +61,6 @@
        height="70.710678"
        x="-36.240372"
        y="1.7395307"
-       transform="rotate(44.986448)" />
-    <rect
-       style="fill:#f2f2f2;fill-rule:evenodd;stroke-width:0.165118"
-       id="rect31-8"
-       width="70.710678"
-       height="70.710678"
-       x="168.20009"
-       y="88.829887"
        transform="rotate(44.986448)" />
   </g>
 </svg>
