@@ -237,6 +237,21 @@ input,select{
     padding:10%;
 }
 
+.gallery-title-4{
+    display:flex;
+    gap:5%;
+}
+.cuartoPanel .galeria button{
+    width:100%;
+    font-size:2em;
+    margin-top:5%;
+}
+.gallery-title-4 h4{
+    margin:0;
+}
+p{
+    margin-top:5%
+}
 /* ==== FOOTER ==== */
 .footer{
     background-color:#EFF2FF;
