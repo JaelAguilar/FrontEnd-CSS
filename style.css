@@ -33,11 +33,13 @@ h1{
 h2{
     font-size:4em;
 }
-h3,h4{
+h3{
     font-size:3em;
 }
 h4{
     font-weight:500;
+    margin-top:1vmin;
+    font-size:2.5em;
 }
 h1,h2,h3,h4{
     color:#1F3E72;
@@ -111,17 +113,23 @@ i{
     color:#FFD200;
     background-color:#FFF9DD;
 }
-.galeria{
+.galeria,.f{
     display:flex;
     flex-wrap:wrap;
     gap:4vw;
+}
+.galeria{
     margin:2% 10% 8%;
 }
-.galeria > div{
+
+.f > div,.f{
     width:100px;
-    flex-grow:1;
-    padding:2%;
     font-size: .6vw;
+    flex-grow:1;
+    margin:0;
+}
+.f > div{
+    padding:6%;
 }
 .gallery-logo{
     font-size:2.2vw;
@@ -184,11 +192,15 @@ i{
     margin-left:10%;
 }
 /* ==== TERCER PANEL ==== */
+.tercerPanel> .text{
+    padding:10%;
+}
 /* ==== CUARTO PANEL ==== */
 .cuartoPanel .galeria{
  margin:0;
 }
 .cuartoPanel .text{
-    padding:10% 10%;
+    padding:10%;
 }
+
 /* ==== FOOTER ==== */
